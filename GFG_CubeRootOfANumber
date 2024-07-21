@@ -1,0 +1,7 @@
+class Solution {
+    static int cubeRoot(int N) {
+        double t = N;
+        t = Math.cbrt(N);
+        return (int)t;
+    }
+};
